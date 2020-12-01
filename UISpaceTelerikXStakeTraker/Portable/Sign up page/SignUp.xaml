@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UISpaceTelerikXStakeTraker.Portable.Signuppage.SignUp">
+    <ScrollView>
+     <StackLayout
+         
+         VerticalOptions="FillAndExpand"
+         HorizontalOptions="FillAndExpand"
+         BackgroundColor="White">
+
+     <StackLayout Padding="-28" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                <Frame HorizontalOptions="FillAndExpand">
+
+               <Image x:Name="logo2" 
+                      Source="logo2.jpeg"
+                      VerticalOptions="FillAndExpand"
+                      HorizontalOptions="FillAndExpand"
+                       ></Image>
+                    </Frame>
+            </StackLayout>
+         <StackLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand">
+     <StackLayout VerticalOptions="StartAndExpand">
+         <StackLayout Margin="10,25,10,7" VerticalOptions="StartAndExpand">
+              <Frame BackgroundColor="#f2f2f2"
+               BorderColor="#f2f2f2"
+               CornerRadius="10"
+               HeightRequest="10"
+               WidthRequest="30"
+               Padding="10,10"
+               HasShadow="False">
+                 <Entry  Placeholder="Email" FontAttributes="None" Margin="13,-20" PlaceholderColor="SlateGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+      
+              </Frame>
+        </StackLayout>
+
+        <StackLayout Margin="10,10,10,7">
+        <Frame BackgroundColor="#f2f2f2"
+               BorderColor="#f2f2f2"
+               CornerRadius="10"
+               HeightRequest="10"
+               WidthRequest="30"
+               Padding="10,10"
+               HasShadow="False">
+            <Entry  Placeholder="Password" IsPassword="True" Margin="13,-20" PlaceholderColor="SlateGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+      
+        </Frame>    
+        </StackLayout>
+         <StackLayout Margin="10,10,10,7">
+        <Frame BackgroundColor="#f2f2f2"
+               BorderColor="#f2f2f2"
+               CornerRadius="10"
+               HeightRequest="10"
+               WidthRequest="30"
+               Padding="10,10"
+               HasShadow="False">
+            <Entry  Placeholder="Verify your Password" IsPassword="True" Margin="13,-20" PlaceholderColor="SlateGray" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Entry>
+      
+        </Frame>    
+        </StackLayout>
+         </StackLayout>
+
+
+
+
+     </StackLayout>
+         </StackLayout>
+        </ScrollView>
+</ContentPage>
